@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'azure-mohini'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1fc3cfd1e6f1490a9da1c093efff65f5 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_8e09aa2a92c045799a649676da19d8af }}
           package: '*.jar'
